@@ -1,6 +1,6 @@
 # Load balancer to RPC based service
 
-## _Group 6 - Distributed System Course - Data Science_
+## _Group 6 - Distributed Systems Course - Data Science_
 
 ## Team members:
 
@@ -51,7 +51,7 @@ sudo apt install git
 2.  *Clone the Repository:* Once Git is installed, you can clone the repository using the git clone command. Navigate to the directory where you want to download the repository and run:
 
 ```sh
-git clone https://github.com/danghh333/FinalDS
+git clone https://github.com/danghh333/ds2024/tree/main/Mid-term_Project
 ```
 
 3.  Install Go:
@@ -153,15 +153,15 @@ sudo systemctl enable nginx
 ```
 ## Setting up
 
-To setup the first gRPC server: Open up the terminal, navigate to FinalDS Github repository:
+To setup the first gRPC server: Open up the terminal, navigate to Mid-term_Project Github repository:
 ```sh
 make server1
 ```
-To setup the second gRPC server: Open up a new terminal, navigate to FinalDS Github repository:
+To setup the second gRPC server: Open up a new terminal, navigate to Mid-term_Project Github repository:
 ```sh
 make server2
 ```
-To setup the client: Open up a new terminal, navigate to FinalDS Github repository:
+To setup the client: Open up a new terminal, navigate to Mid-term_Project Github repository:
 ```sh
 make client
 ```
