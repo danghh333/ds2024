@@ -1,0 +1,24 @@
+// FileTransfer.proto (gRPC protocol definition)
+syntax = "proto3";
+
+service FileTransferService {
+    rpc UploadFile(UploadRequest) returns (UploadResponse);
+    rpc DownloadFile(DownloadRequest) returns (DownloadResponse);
+}
+
+    message UploadRequest {
+        bytes file_content = 1;
+    string file_name = 2;
+}
+
+message UploadResponse {
+    string message = 1;
+}
+
+message DownloadRequest {
+    string file_name = 1;
+}
+
+message DownloadResponse {
+    bytes file_content = 1;
+}
